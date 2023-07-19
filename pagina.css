@@ -1,0 +1,123 @@
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.company-logo {
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.company-logo img {
+    width: 500px;
+    height: 600px;
+}
+
+.company-info .datas {
+    margin-left: 45%;
+    position: relative;
+    right: 25%;
+    top: 75%;
+}
+
+.section2 .about p {
+    font-size: 25px;
+}
+
+.datas li {
+    margin-bottom: 5%;
+    list-style: none;
+}
+
+.datas span {
+    font-weight: 600;
+    color: #f00;
+}
+
+.aditional {
+    margin-top: 5%;
+}
+
+.contact {
+    margin-top: 10%;
+}
+
+.contact .datas li {
+    margin-bottom: 2%;
+    list-style: none;
+}
+
+.contact .datas li a {
+    text-decoration: none;
+}
+
+.album {
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 1vw;
+    padding: 2vw;
+}
+
+.foto-album img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto-album {
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1 .company-logo img {
+        position: relative;
+        right: 5%;
+        width: 400px;
+        height: 400px;
+    }
+
+    .section1 .datas {
+        position: relative;
+        Right: 60%;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 .contact .datas {
+        position: relative;
+        Right: 15%;
+    }
+
+    .album {
+        position: relative;
+        Right: 22%;
+    }
+
+    .album img {
+        width: 180px;
+        height: 150px;
+    }
+
+    .album .foto-album {
+        width: 180px;
+        height: 150px;
+    }
+}
